@@ -1,0 +1,22 @@
+/* ✅ ProfileCard.module.css
+   Styles for the ProfileCard component.
+   Gives a clean, centered card layout. */
+
+.card {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}

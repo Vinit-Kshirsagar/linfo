@@ -1,0 +1,30 @@
+/* ✅ ProjectList.module.css
+   Styles for the ProjectList component.
+   Displays projects clearly with links. */
+
+.projects {
+  padding: 1rem;
+  text-align: center;
+}
+
+.projects h3 {
+  font-size: 1.25rem;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  margin: 0.5rem 0;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}

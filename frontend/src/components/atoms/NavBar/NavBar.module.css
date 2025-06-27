@@ -1,0 +1,27 @@
+/* ✅ NavBar.module.css
+   Styles for the Navbar.
+   Displays name on the left and links (LinkedIn, GitHub) on the right. */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  background-color: #333;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.links a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

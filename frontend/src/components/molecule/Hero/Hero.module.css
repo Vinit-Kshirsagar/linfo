@@ -1,0 +1,20 @@
+/* ✅ Hero.module.css
+   Styles for the Hero component.
+   Centers the text, adds padding and sets a light background for a clean look.
+*/
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #fafafa;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 1.25rem;
+  color: #555;
+}

@@ -4,14 +4,29 @@
 
 import React from 'react';
 import styles from './NavBar.module.css';
+import { Link } from 'react-router-dom';
+
 
 function NavBar({ name, linkedin, github }) {
   return (
     <nav className={styles.nav}>
       <div className={styles.name}>{name}</div>
       <div className={styles.links}>
-        <a href={linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
+       <Link to="/linkedin">
+  <button
+          style={{
+            backgroundColor: '#0072b1',
+            color: '#fff',
+            padding: '10px 16px',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer'
+          }}
+        >
+          Submit LinkedIn Profile</button>
+          </Link>
+
+
       </div>
     </nav>
   );
